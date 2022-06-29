@@ -37,7 +37,7 @@ export default function CreatePage() {
         <label>Price
           <input name='price' value={formPrice} onChange={e => setFormPrice(e.target.value)}/>
         </label>
-        <button>Add Restaurant</button>
+        <button>Add Restaurants</button>
       </form>
     </div>
   );
