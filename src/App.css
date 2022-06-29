@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+.auth {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: stretch;
+  flex-direction: row-reverse;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav {
+ display: flex;
+ flex-wrap: wrap;
+}
+.NavLink {
+  display: flex;
+  flex-wrap: wrap;
+}
